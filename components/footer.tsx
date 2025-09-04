@@ -48,7 +48,7 @@ export function Footer() {
     const savedData = getData('footer-info')
     if (savedData) {
       // Made with와 템플릿 크레딧은 편집 불가이므로 기본값 유지
-      setFooterInfo({ 
+      setFooterInfo({
         ...defaultInfo, 
         ...savedData,
         showMadeWith: defaultInfo.showMadeWith,
@@ -260,12 +260,6 @@ export function Footer() {
               <ArrowUp className="h-4 w-4 text-muted-foreground" />
             </button>
           )}
-        </div>
-      </div>
-    </footer>
-  )
-}
-   )}
         </div>
       </div>
     </footer>
